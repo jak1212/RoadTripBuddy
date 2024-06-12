@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T20:02:29.029Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="YvA0BdtTy8ZHP-S6jL_0" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T20:16:19.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="CnEWJbIL9KyNM1kfE9IR" version="24.5.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="794" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dNxyNK7c78bLwvsdeMH5-19" value="Road Trip Buddy" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" parent="1" vertex="1">
-          <mxGeometry x="120" y="120" width="980" height="1610" as="geometry" />
+          <mxGeometry x="120" y="40" width="970" height="1610" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-20" value="Client" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" width="960" height="320" as="geometry" />
+          <mxGeometry x="20" width="950" height="320" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="dNxyNK7c78bLwvsdeMH5-20" source="dNxyNK7c78bLwvsdeMH5-23" target="dNxyNK7c78bLwvsdeMH5-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -29,10 +29,10 @@
           <mxGeometry x="412.5" y="140" width="175" height="90" as="geometry" />
         </mxCell>
         <mxCell id="6-BciqSMr9cg0atfWl0l-21" value="Display ingredients Result report" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
-          <mxGeometry x="412.5" y="-30" width="175" height="90" as="geometry" />
+          <mxGeometry x="412.5" y="10" width="175" height="90" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="MicroService" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" y="320" width="960" height="750" as="geometry" />
+          <mxGeometry x="20" y="320" width="950" height="750" as="geometry" />
         </mxCell>
         <mxCell id="6-BciqSMr9cg0atfWl0l-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" source="6-BciqSMr9cg0atfWl0l-1" target="6-BciqSMr9cg0atfWl0l-3">
           <mxGeometry relative="1" as="geometry" />
@@ -57,7 +57,7 @@
           <mxGeometry x="274" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="Heroku DB" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" y="1070" width="960" height="540" as="geometry" />
+          <mxGeometry x="20" y="1070" width="950" height="540" as="geometry" />
         </mxCell>
         <mxCell id="6-BciqSMr9cg0atfWl0l-9" value="Use result FoodItem.ID to query FoodItemDetails&lt;br&gt;&lt;br&gt;For each returned FoodItemDetails record, query Ingredients table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="87.5" y="20" width="175" height="90" as="geometry" />
